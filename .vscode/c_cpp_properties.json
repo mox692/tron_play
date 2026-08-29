@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/mtk3_bsp2",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/mtk3_bsp2/include",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/mtk3_bsp2/config",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/mtk3_bsp2/mtkernel/include",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/mtk3_bsp2/mtkernel/kernel/knlinc",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/Core/Inc",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                "${workspaceFolder}/mtk3bsp2_samples/IDE_Projects/mtk3bsp2_stm32h723/Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "DEBUG",
+                "USE_HAL_DRIVER",
+                "STM32H723xx",
+                "_STM32CUBE_NUCLEO_H723_"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
