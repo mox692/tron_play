@@ -4,7 +4,20 @@
 Press the `Run` button to build and flush the firmware.
 
 **Using Cube CLI**
-TBD
+
+Build & Flash the firmware using STM32_Programmer_CLI:
+
+```bash
+# First time
+just import
+
+# Build
+just build
+
+# Flash
+just flash
+```
+
 
 # Debug
 
