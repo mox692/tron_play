@@ -37,9 +37,12 @@ ip -details -statistics link show can0
 
 Access to serial:
 ```bash
-$ screen /dev/cu.usbmodem21303 115200
+screen /dev/cu.usbmodem21303 115200
 
 # Kill the current window:
 # 1. Press Ctrl + A
 # 2. Press k (lowercase)Type
+
+picocom -b 115200 /dev/cu.usbmodem21202
+# [C-a][C-x]
 ```
